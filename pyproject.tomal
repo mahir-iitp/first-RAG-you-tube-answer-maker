@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-rag-assistant"
+version = "0.1.0"
+description = "A simple YouTube RAG Question Answering Assistant"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "youtube-transcript-api",
+    "sentence-transformers",
+    "faiss-cpu",
+    "transformers",
+    "torch",
+    "sentencepiece",
+    "numpy"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
