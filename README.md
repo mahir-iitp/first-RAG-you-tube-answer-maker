@@ -15,7 +15,7 @@ A lightweight Retrieval-Augmented Generation (RAG) library that allows users to 
 ## Installation
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/youtube-rag-assistant.git
+pip install git+https://github.com/mahir-iitp/youtube-rag-assistant.git
 ```
 
 ## Usage
